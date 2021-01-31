@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Formulario de suscripción. Trabajo Final - Irene Nebot Román</title>
+</head>
+<body>
+
+  <div class="data">
+    <form action="" method="GET">
+      <p class="image">
+        <img class="form-image" src="img/movil.png">
+      </p>
+      <p>Email: <input type="email" name="email" required></p>
+      <p>Nombre: <input type="text" name="nombre" required>
+      Apellidos: <input type="text" name="apellidos"></p>
+      <p>Sexo:
+        <p><input type="radio" name="hmn" value="h" required> Hombre</p>
+        <p><input type="radio" name="hmn" value="m" required> Mujer</p>
+        <p><input type="radio" name="hmn" value="n" required> Prefiero no decirlo</p>
+      </p>
+      <p><input type="checkbox" name="casilla" required> He leído y acepto las condiciones de uso del servicio y la Política de Privacidad.</p>
+      <p><input type="button" onclick="mensaje('¡Se ha suscrito correctamente!')" value="Enviar">
+      <script>
+        function mensaje(texto) {
+          alert(texto);
+        }
+      </script>
+      <input type="reset" value="Borrar"></p>
+    </form>
+  </div>
+  <div class="bg-image3">
+  </div>
+</body>
+</html>

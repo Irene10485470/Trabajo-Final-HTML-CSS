@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/me2021.ico">
+  <title>MIKU EXPO Fanpage. Trabajo Final - Irene Nebot Román</title>
+</head>
+<body>
+    <header>
+        <img src="img/main_logo.png">
+    </header>
+    <div class="main">
+        <div class="main-image">
+            <img src="img/main-header.png">
+        </div>
+        <div class="img-L">  
+        </div>
+        <div class="title-main">
+            <h1>¡Bienvenido a la fanpage de MIKU EXPO!</h1>
+        </div>
+        <div class="content-L">
+            <h2>¿Qué es la MIKU EXPO?</h2>
+            <p>HATSUNE MIKU EXPO es una gira mundial de conciertos, organizada por Crypton Future Media, que incluye una variedad de eventos secundarios (exposiciones, talleres, eventos de clubes...) donde los fanáticos de todos los orígenes pueden reunirse y compartir varios aspectos de la cultura creativa que rodea a Hatsune Miku.</p>
+        </div>
+        <dialog id="main-dialog">
+            <img src="img/about_miku.png">
+            <h1>¿Qué es Hatsune Miku?</h1>
+            <p>Hatsune Miku es una sensación de la música japonesa, una chica de cabello azul de 16 años con una voz única y una energía prodigiosa.</p>
+            <p>Lo que la hace especial es que no es una cantante humana, sino una persona virtual que usa una voz generada por computadora y gráficos en 3D para actuar en el escenario. Con un repertorio proporcionado íntegramente por creadores individuales, es el primer talento virtual verdaderamente creado por la multitud. ¡Pero ser virtual no le impide llenar salas de conciertos o asociarse con grandes artistas como Lady Gaga y Pharrell Williams!</p>
+            <p>Internacionalmente popular, con más de 2.5 millones de seguidores en Facebook, la creciente demanda de conciertos en el extranjero allanó el camino a la Miku Expo, una gira mundial que hasta ahora la ha llevado desde Indonesia hasta Los Ángeles, Nueva York y Shanghai, con una parada televisiva memorable en el programa de David Letterman.</p>
+            <p class="note">*Kagamine Rin, Kagamine Len, Megurine Luka, MEIKO y KAITO también son cantantes virtuales desarrollados por Crypton Future Media, INC.</p>
+            <p>
+              <input type="button" value="Cerrar" onclick="document.getElementById('main-dialog').removeAttribute('open')">
+            </p>
+        </dialog>
+            <p class="main-button">
+                <input type="button" value="❓ ¿Qué es Hatsune Miku? ❓" onclick="document.getElementById('main-dialog').setAttribute('open', 'open')">
+            </p>
+        <div class="img-R">
+        </div>
+        <div class="content-R">
+            <h3>¡Un concierto online gratuito realizado junto con fans de todo el mundo!</h3>
+            <p>Fecha del evento: por anunciar</p>
+            <iframe src="https://www.youtube.com/embed/AYUNaQaDfa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+        <div class="local">
+            <h4>Otros apartados:</h4>
+            <p><a href="concerts.html">Magical Mirai (2019 - 2020)</a></p>
+            <p><a href="form.html">¿Quieres enterarte de las últimas novedades? ¡Suscríbete aquí!</a></p>
+        </div>
+        <img src="img/Hatsune_miku_logo_v3_w.png">
+        <div class="ext">
+            <h4>Información obtenida y traducida de:</h4>
+            <p><a href="https://mikuexpo.com/">Miku Expo - Official</a></p>
+            <p><a href="https://piapro.net/intl/en.html">Hatsune Miku Official Website</a></p>
+            <p><a href="https://magicalmirai.com/2019/index_en.html">Magical Mirai 2019</a> y <a href="https://magicalmirai.com/2020/index_en.html">2020</a></p>
+        </div>
+    </footer>
+    <div class="bg-image">
+        <img src="img/bg.png">
+    </div>
+</body>
+</html>
